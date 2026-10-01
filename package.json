@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "clear-all": "rimraf ./.cache ./.next ./node_modules ./package-lock.json"
   },
   "browserslist": [
